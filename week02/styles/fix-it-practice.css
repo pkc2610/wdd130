@@ -1,4 +1,8 @@
+* {
+    background-color: #f3bcfc;
+}
+
 p {
     font-style: italic;
-    font-size: 7px;
+    font-size: 12px;
 }
