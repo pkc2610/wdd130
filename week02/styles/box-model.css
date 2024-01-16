@@ -8,7 +8,7 @@
 }
 
 .callout img {
-	position: float;
+	float: right;
     margin: right;
     border: 0 0 10px 15px;
     padding: 3px;
