@@ -9,22 +9,22 @@
 
 .callout img {
 	position: float;
-    margin: ;
-    border: ;
-    padding: ;
-    background-color: ;
-    width: ;
-    height: ;
+    margin: right;
+    border: 0 0 10px 15px;
+    padding: 3px;
+    background-color: #bbb;
+    width: 100px;
+    height: auto;
 }
 
 blockquote {
-	margin: ;
+	margin: 0;
 }
 
 cite {
-	display ;
-    border-top ;
-    padding-top ;
-    text-align ;
-    font-size ;
+	display: block;
+	border-top: 1px dotted #fff;
+	padding-top: 3px;
+	text-align: right;
+	font-size: smaller;
 }
