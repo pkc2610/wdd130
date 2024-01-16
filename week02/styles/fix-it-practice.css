@@ -5,6 +5,6 @@
     display: block;
 }
 
-:root {
-    view-transition-name: root;
+main {
+    background-color: #800080;
 }
