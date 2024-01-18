@@ -24,3 +24,12 @@ img{
 p {
     padding: 10px;
 }
+
+aside {
+    width: auto;
+    margin: 2px;
+    border: 75px;
+    padding: 200px;
+    background-color: #c0b9dd;
+    color: #ded9e2;
+}
