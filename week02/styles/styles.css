@@ -22,7 +22,7 @@ img{
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 aside {
@@ -32,4 +32,15 @@ aside {
     padding: 200px;
     background-color: #c0b9dd;
     color: #ded9e2;
+}
+
+main img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 10px;
+    text-align: center;
 }
