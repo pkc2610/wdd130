@@ -6,16 +6,17 @@
 :root {
     --primary-color: #F96C39;
     --secondary-color: #3782FB;
-    --accent-color: #1F9AFF;
+    --accent1-color: #1F9AFF;
+    --accent2-color: #0a5898;
     --additional-accent-color: #82B12F;
 
     --heading-font: lato, serif;
     --paragraph-font: lato, serif;
 
-    --navigation-background-color: #8D9F87;
-    --navigation-link-color: #6F9283;
-    --navigation-hover-link-color:#CDC6A5;
-    --navigation-hover-background-color: #696D7D;
+    --nav-background-color: #8D9F87;
+    --nav-link-color: #6F9283;
+    --nav-hover-link-color:#CDC6A5;
+    --nav-hover-background-color: #696D7D;
     @import url("https://fonts.google.com/specimen/Lato");
 }
 
