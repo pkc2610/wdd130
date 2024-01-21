@@ -1,0 +1,48 @@
+@import url("https://fonts.google.com/specimen/Lato")
+
+root {
+    primary-color: F96C39;
+    secondary-color: 3782FB;
+    accent-color: 1F9AFF;
+    additional-accent-color: 82B12F;
+    heading-font: lato;
+    paragraph-font: lato;
+    navigation-background-color: 8D9F87;
+    navigation-link-color: 6F9283;
+    navigation-hover-link-color:CDC6A5;
+    navigation-hover-background: color: 696D7D;
+    }
+    
+    body {
+    font-family: var(paragraph-font)
+    max-width: 960px;
+    padding: 20px;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+    font-family: var(paragraph-font);
+    color: var(primary-color);
+    }
+    
+    header {
+    padding: 20px;
+    background-color: var(secondary-color);
+    }
+    
+    p {
+    padding: 25px;
+    }
+    
+    nav {
+    background-color: var(navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    }
+    
+    nav a {
+    display: block;
+    color: var(nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    }
+    
