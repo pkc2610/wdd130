@@ -3,6 +3,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    primary-color: #F96C39;
+    secondary-color: #3782FB;
+    accent-color: #1F9AFF;
+    additional-accent-color: #82B12F;
+
+    heading-font: lato, serif;
+    paragraph-font: lato, serif;
+
+    navigation-background-color: #8D9F87;
+    navigation-link-color: #6F9283;
+    navigation-hover-link-color:#CDC6A5;
+    navigation-hover-background-color: #696D7D;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 960px;
