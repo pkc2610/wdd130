@@ -16,6 +16,7 @@
     navigation-link-color: #6F9283;
     navigation-hover-link-color:#CDC6A5;
     navigation-hover-background-color: #696D7D;
+    @import url("https://fonts.google.com/specimen/Lato");
 }
 
 body {
@@ -59,5 +60,3 @@ h1, h2, h3, h4, h5, h6 {
         background-color: #CDC6A5;
 
     }
-
-    @import url("https://fonts.google.com/specimen/Lato")
