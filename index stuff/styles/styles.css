@@ -67,6 +67,11 @@ ul, li, li a{
    background-color: #bbb0e4;
 }
 
+aside h2 {
+    top: 47px;
+    left: 150px;
+}
+
 
 /* Class Selectors */
 
