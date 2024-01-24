@@ -1,3 +1,7 @@
 main nav {
     border: 5px solid #8963BA;
 }
+
+main h1 {
+    font-weight: normal;
+}
