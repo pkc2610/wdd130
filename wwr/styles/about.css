@@ -1,7 +1,16 @@
-main nav {
+main p {
     border: 5px solid #8963BA;
+    background-color: #DDD0F1;
 }
 
 main h1 {
     font-weight: normal;
+}
+
+body nav {
+    background-color: #DDD0F1;
+}
+
+aside {
+    background-color: #DDD0F1
 }
