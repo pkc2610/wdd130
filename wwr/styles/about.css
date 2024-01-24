@@ -14,3 +14,7 @@ body nav {
 aside {
     background-color: #DDD0F1
 }
+
+article img {
+    float: right;
+}
