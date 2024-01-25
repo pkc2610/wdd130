@@ -27,10 +27,9 @@ body {
     background-color: #F96C39;
 }    
 
-
-h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #696D7D;
+    color: #224ae9;
     }
     
     header {
@@ -60,4 +59,10 @@ h1, h2, h3, h4, h5, h6 {
         color: #6F9283;
         background-color: #CDC6A5;
 
+    }
+
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
