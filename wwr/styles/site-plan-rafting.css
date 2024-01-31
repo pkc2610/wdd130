@@ -29,36 +29,38 @@ body {
 
  h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #224ae9;
+    color: var(--primary-color)
     }
     
     header {
     padding: 20px;
-    background-color: #3782FB;
+    background-color: var(--accent1-color);
     }
     
     p main{
     padding: 25px;
-    background-color: #82B12F;
     }
     
     nav {
-    background-color: #82B12F;
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
     }
     
     nav a {
     display: block;
-    color: #CDC6A5;
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
     }
     
-    nav a:visited {
-        color: #6F9283;
-        background-color: #CDC6A5;
+    nav a:link, nav a:visited {
+        color: var(--nav-link-color);
+    }
 
+    nav a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color)
     }
 
     .hero img {
