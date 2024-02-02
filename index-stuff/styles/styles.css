@@ -94,3 +94,20 @@ header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
 }
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
