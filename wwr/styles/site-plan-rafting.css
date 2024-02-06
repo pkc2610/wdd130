@@ -53,19 +53,6 @@ body {
         border: solid 3px var(--accent2-color);
         display: block;
     }
-
-    .hero p {
-        text-align: left;
-    }
-
-    .has_pictures {
-        display: grid;
-    }
-
-    .history-class {
-        display: grid;
-        grid-auto-flow: row;
-    }
     
     p main {
         padding: 25px;
@@ -91,11 +78,6 @@ body {
     nav a:hover {
         color: var(--nav-hover-link-color);
         background-color: var(--nav-hover-background-color)
-    }
-
-    .has_pictures {
-        display: grid;
-        grid-template-columns: auto;
     }
 
     footer a {
