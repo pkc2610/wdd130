@@ -14,7 +14,7 @@
     --heading-font: Georgia, 'Times New Roman', Times, serif;
     --paragraph-font: Georgia, 'Times New Roman', Times, serif;
 
-    --nav-background-color: #696D7D;
+    --nav-background-color: #246246;
     --nav-link-color: #6F9283;
     --nav-hover-link-color:#CDC6A5;
     --nav-hover-background-color: #8D9F87;
@@ -47,6 +47,18 @@ body {
     .options {
         display: flex;
         align-items: center;
+    }
+
+    .hero {
+        border: solid 3px var(--accent2-color);
+    }
+
+    .notebook {
+        border: solid 3px var(--secondary-color);
+    }
+
+    .has_pictures {
+        display: grid;
     }
     
     p main{
