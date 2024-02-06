@@ -67,8 +67,8 @@ body {
         grid-auto-flow: row;
     }
     
-    p main{
-    padding: 25px;
+    p main {
+        padding: 25px;
     }
     
     nav {
@@ -96,4 +96,8 @@ body {
     .has_pictures {
         display: grid;
         grid-template-columns: auto;
+    }
+
+    footer a {
+        max-width: min-content;
     }
