@@ -51,10 +51,12 @@ body {
 
     .hero {
         border: solid 3px var(--accent2-color);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
-    .notebook {
-        border: solid 3px var(--secondary-color);
+    .hero p {
+        text-align: left;
     }
 
     .has_pictures {
@@ -90,12 +92,6 @@ body {
     nav a:hover {
         color: var(--nav-hover-link-color);
         background-color: var(--nav-hover-background-color)
-    }
-
-    .hero img {
-        display: grid;
-        width: 100%;
-        height: auto;
     }
 
     .has_pictures {
