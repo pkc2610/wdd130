@@ -29,7 +29,7 @@ body {
 
  h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--primary-color)
+    color: var(--nav-background-color)
     }
     
     header {
@@ -51,8 +51,7 @@ body {
 
     .hero {
         border: solid 3px var(--accent2-color);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: block;
     }
 
     .hero p {
