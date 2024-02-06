@@ -60,6 +60,11 @@ body {
     .has_pictures {
         display: grid;
     }
+
+    .history-class {
+        display: grid;
+        grid-auto-flow: row;
+    }
     
     p main{
     padding: 25px;
