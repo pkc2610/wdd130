@@ -28,8 +28,9 @@ body {
 }    
 
  h1, h2, h3, h4, h5, h6 {
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--nav-background-color)
+    color: var(--nav-background-color);
     }
     
     header {
