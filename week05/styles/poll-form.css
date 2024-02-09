@@ -10,3 +10,8 @@ body {
     color: #bee9ee;
     background: #999999;
 }
+
+header {
+    margin: auto;
+    width: fit-content;
+}
