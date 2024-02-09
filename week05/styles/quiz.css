@@ -5,4 +5,9 @@ h1 {
 
 * {
     background-color: rgb(91, 227, 91);
+    color: #06446b;
+}
+
+input {
+    color: white;
 }
