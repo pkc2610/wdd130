@@ -7,8 +7,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
-    color: #bee9ee;
-    background: #379909;
+    color: #2210a9;
+    background: #bf7ed3;
 }
 
 header {
@@ -21,4 +21,14 @@ h1 {
     font-size: 1.3em;
     color: orchid;
     text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    padding: 0.5rem;
+    border: 1px solid #9d81f1;
+    border-radius: 0.5rem;
+    background-color: rgb(196, 132, 217);
+    display: grid;
 }
