@@ -67,3 +67,7 @@ input [type="checkbox"] {
     vertical-align: bottom;
 }
 
+button {
+    height: 27px;
+    width: 35px;
+}
