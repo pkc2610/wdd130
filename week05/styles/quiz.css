@@ -11,3 +11,8 @@ h1 {
 input {
     color: white;
 }
+
+button {
+    background-color: rgb(237, 119, 237);
+    color: darkblue;
+}
