@@ -82,5 +82,8 @@ button:hover {
 }
 
 footer {
+    background-color: rgb(200, 105, 235);
+    text-align: center;
+    border: 1px solid chartreuse;
     
 }
