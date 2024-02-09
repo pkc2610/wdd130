@@ -32,3 +32,11 @@ form {
     background-color: rgb(196, 132, 217);
     display: grid;
 }
+
+fieldset {
+    display: grid;
+    grid-gap: .2rem;
+    margin: .5rem;
+    border: 1px solid #9d91f1;
+    padding: .1rem;
+}
