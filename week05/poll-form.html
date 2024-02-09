@@ -16,15 +16,21 @@
     <form>
         <fieldset>
             <legend>Contact Information</legend>
+            <div>
             <label for="full-name">Full Name</label>
             <input type="text" id="full-name" name="full-name">
+            </div>
+            <div>
             <label for="email">Email</label>
             <input type="email" id="user-email" name="user-email">
+            </div>
         </fieldset>
         <fieldset>
             <legend>Questions</legend>
+            <div>
             <label for="browser">What is your favorite internet browser?</label>
             <select id="browser" name="browser">
+            </div>
                 <option value="Chrome">Chrome</option>
                 <option value="Safari">Safari</option>
                 <option value="Firefox">Firefox</option>
@@ -32,10 +38,14 @@
                 <option value="Brave">Brave</option>
                 <option value="Other">Other</option>
             </select>
+            <div>
             <label for="pet">Do you have a household pet?</label>
             <input type="text" id="pet" name="pet">
+            </div>
+            <div>
             <label for="feedback">List the places you have lived:</label>
             <textarea id="feedback" name="feedback" rows="7" placeholder="too many places"></textarea>
+            </div>
             <button type="submit">Submit Poll</button>
         </fieldset>
     </form>
