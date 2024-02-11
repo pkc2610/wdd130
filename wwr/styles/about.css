@@ -1,6 +1,11 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #fa8c25;
+}
+
 main p {
-    border: 5px solid #8963BA;
-    background-color: #DDD0F1;
+    border: 5px solid #67cb34;
+    background-color: #25b3fa;
 }
 
 main h1 {
@@ -8,11 +13,11 @@ main h1 {
 }
 
 body nav {
-    background-color: #DDD0F1;
+    background-color: #fa8c25;
 }
 
 footer {
-    background-color: #DDD0F1
+    background-color: #fa8c25;
 }
 
 article img {
