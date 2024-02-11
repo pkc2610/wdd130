@@ -1,0 +1,25 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #fa8c25;
+}
+
+main p {
+    border: 5px solid #67cb34;
+    background-color: #25b3fa;
+}
+
+main h1 {
+    font-weight: normal;
+}
+
+body nav {
+    background-color: #fa8c25;
+}
+
+footer {
+    background-color: #fa8c25;
+}
+
+article img {
+    float: right;
+}
