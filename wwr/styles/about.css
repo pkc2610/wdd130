@@ -3,6 +3,51 @@
     background-color: #fa8c25;
 }
 
+:root {
+    --primary-color: #F96C39;
+    --secondary-color: #3782FB;
+    --accent1-color: #1F9AFF;
+    --accent2-color: #82B12F;
+
+    --heading-font: Georgia, 'Times New Roman', Times, serif;
+    --paragraph-font: Georgia, 'Times New Roman', Times, serif;
+
+    --nav-background-color: #246246;
+    --nav-link-color: #6F9283;
+    --nav-hover-link-color:#CDC6A5;
+    --nav-hover-background-color: #8D9F87;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20px;
+    background-color: #1F9AFF;
+    }
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    }
+    
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #246246;
+    }
+
+nav a:link, nav a:visited {
+        color: var(--nav-link-color);
+    }
+
+nav a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color)
+    }
+
 main p {
     border: 5px solid #67cb34;
     background-color: #25b3fa;
@@ -18,8 +63,20 @@ body nav {
 
 footer {
     background-color: #fa8c25;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 article img {
     float: right;
+}
+
+.header-img {
+    max-width: 200px;
+    max-height: 150px;
+  }
+
+footer img {
+    max-width: 30px;
+    max-height: 30px;
 }
