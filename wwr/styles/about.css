@@ -84,3 +84,8 @@ footer img {
 p a {
     background-color: #1F9AFF;
 }
+
+.employee-photos img {
+    max-width: 300px;
+    max-height: 300px;
+}
