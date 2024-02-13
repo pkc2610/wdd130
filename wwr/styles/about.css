@@ -1,13 +1,13 @@
 * {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: #fc9b78;
+    background-color: #fb7646;
 }
 
 :root {
-    --primary-color: #fc9b78;
+    --primary-color: #fb7646;
     --secondary-color: #76a4ee;
     --accent1-color: #7dc0f7;
-    --accent2-color: #82B12F;
+    --accent2-color: #64b892;
 
     --heading-font: Georgia, 'Times New Roman', Times, serif;
     --paragraph-font: Georgia, 'Times New Roman', Times, serif;
