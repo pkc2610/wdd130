@@ -23,12 +23,16 @@ header {
     grid-template-columns: auto;
     padding: 20px;
     background-color: var(--secondary-color);
+    max-height: fit-content;
+    max-width: fit-content;
     }
 
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    max-height: fit-content;
+    max-width: fit-content;
     }
     
 nav a {
