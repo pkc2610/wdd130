@@ -1,28 +1,28 @@
 * {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: #fa8c25;
+    background-color: #fc9b78;
 }
 
 :root {
-    --primary-color: #F96C39;
-    --secondary-color: #3782FB;
-    --accent1-color: #1F9AFF;
+    --primary-color: #fc9b78;
+    --secondary-color: #76a4ee;
+    --accent1-color: #7dc0f7;
     --accent2-color: #82B12F;
 
     --heading-font: Georgia, 'Times New Roman', Times, serif;
     --paragraph-font: Georgia, 'Times New Roman', Times, serif;
 
-    --nav-background-color: #246246;
-    --nav-link-color: #6F9283;
-    --nav-hover-link-color:#CDC6A5;
-    --nav-hover-background-color: #8D9F87;
+    --nav-background-color: #479572;
+    --nav-link-color: #91b9a8;
+    --nav-hover-link-color:#e6dfbf;
+    --nav-hover-background-color: #abc4a2;
 }
 
 header {
     display: grid;
     grid-template-columns: auto;
     padding: 20px;
-    background-color: #1F9AFF;
+    background-color: var(--secondary-color);
     }
 
 nav {
@@ -36,7 +36,7 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-    background-color: #246246;
+    background-color: var(--nav-background-color);
     }
 
 nav a:link, nav a:visited {
@@ -49,8 +49,8 @@ nav a:hover {
     }
 
 main p {
-    border: 5px solid #67cb34;
-    background-color: #25b3fa;
+    border: 5px solid var(--accent2-color);
+    background-color: var(--accent1-color);
 }
 
 main h1 {
@@ -58,11 +58,11 @@ main h1 {
 }
 
 body nav {
-    background-color: #fa8c25;
+    background-color: var(--primary-color);
 }
 
 footer {
-    background-color: #fa8c25;
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: auto;
 }
@@ -82,7 +82,7 @@ footer img {
 }
 
 p a {
-    background-color: #1F9AFF;
+    background-color: var(--accent1-color);
 }
 
 .employee-photos img {
