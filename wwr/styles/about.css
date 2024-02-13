@@ -80,3 +80,7 @@ footer img {
     max-width: 30px;
     max-height: 30px;
 }
+
+p a {
+    background-color: #1F9AFF;
+}
