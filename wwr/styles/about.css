@@ -124,7 +124,15 @@ caption {
 }
 
 .good-stuff {
-    display: grid;
-    grid: row;
-    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    grid-row: inherit;
+}
+
+.options {
+    flex-grow: 1;
+}
+
+.formbb {
+    max-width: 70%;
 }
