@@ -94,6 +94,14 @@ p a {
     max-width: 225px;
     max-height: 225px;
     display: flex;
+    flex: column;
+    flex-direction: row-reverse;
+}
+
+.employee-photos{
+    max-height: 225px;
+    display: flex;
+    flex: column;
     flex-direction: row-reverse;
 }
 
