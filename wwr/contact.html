@@ -25,6 +25,43 @@
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d16693.79693670797!2d-109.76724808203959!3d38.44979824055753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdead%20horse%20point!5e0!3m2!1sen!2sus!4v1707866100381!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <form>
+                <h2> Send Us a Message! </h2>
+                <fieldset>
+                    <legend>Your name:</legend>
+                    <div>
+                        <label for="q1">Please enter your first and last name.</label>
+                        <input type="text" id="q1" name="q1">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Email:</legend>
+                    <div>
+                        <label for="q2">Please enter your email address.</label>
+                        <input type="text" id="q2" name="q2">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend>Purpose of your message:</legend>
+                        <input type="radio" id="general-inquiry" name="message-purpose" value="general-inquiry">
+                        <label for="general-inquiry">General Inquiry</label><br>
+                        <input type="radio" id="res-quest" name="message-purpose" value="res-quest">
+                        <label for="res-quest">Reservation Question</label><br>
+                        <input type="radio" id="web-sug" name="message-purpose" value="web-sug">
+                        <label for="web-sug">Website Suggestion</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Message:</legend>
+                        <textarea id="q4" name="q4" rows="7" placeholder="Let us know what you're thinking!"></textarea>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="letter">
+                    <label for="newsletter"> Sign up for our newsletter! </label><br>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
         </section>
         <section class="employee-photos">
             <img src="images/intern.jpeg" alt="This is Penny, our social media intern!">
@@ -46,43 +83,6 @@
         </section>
     </br>
 </br>
-        <form>
-            <h2> Send Us a Message! </h2>
-            <fieldset>
-                <legend>Your name:</legend>
-                <div>
-                    <label for="q1">Please enter your first and last name.</label>
-                    <input type="text" id="q1" name="q1">
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Email:</legend>
-                <div>
-                    <label for="q2">Please enter your email address.</label>
-                    <input type="text" id="q2" name="q2">
-                </div>
-            </fieldset>
-            <fieldset>
-                <div>
-                    <legend>Purpose of your message:</legend>
-                    <input type="radio" id="general-inquiry" name="message-purpose" value="general-inquiry">
-                    <label for="general-inquiry">General Inquiry</label><br>
-                    <input type="radio" id="res-quest" name="message-purpose" value="res-quest">
-                    <label for="res-quest">Reservation Question</label><br>
-                    <input type="radio" id="web-sug" name="message-purpose" value="web-sug">
-                    <label for="web-sug">Website Suggestion</label>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Message:</legend>
-                    <textarea id="q4" name="q4" rows="7" placeholder="Let us know what you're thinking!"></textarea>
-            </fieldset>
-            <fieldset>
-                <input type="checkbox" id="newsletter" name="newsletter" value="letter">
-                <label for="newsletter"> Sign up for our newsletter! </label><br>
-            </fieldset>
-            <button type="submit">Submit</button>
-        </form>
     </main>
     <footer>
         <p>&copy; 2024 | Great Adventure Rafting | Phoebe Christensen</p>
