@@ -119,20 +119,18 @@ caption {
     font-weight: 100;
 }
 
-.working-on-it {
-    max-width: 30%;
-}
-
 .good-stuff {
     display: flex;
     flex-direction: row;
-    grid-row: inherit;
+    justify-content: space-around;
 }
 
 .options {
     flex-grow: 1;
 }
 
-.formbb {
-    max-width: 70%;
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
