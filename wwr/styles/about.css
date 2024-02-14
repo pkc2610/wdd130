@@ -102,6 +102,7 @@ p a {
     display: flex;
     flex: column;
     flex-direction: row-reverse;
+    border: 3px solid var(--accent1-color);
 }
 
 textarea {
@@ -113,10 +114,6 @@ button {
     max-height: 200px;
     background-color: var(--nav-background-color);
     color: rgb(228, 208, 197);
-}
-
-caption {
-    font-weight: 100;
 }
 
 .good-stuff {
