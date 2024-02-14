@@ -93,6 +93,8 @@ p a {
 .employee-photos img {
     max-width: 225px;
     max-height: 225px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 textarea {
