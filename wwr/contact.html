@@ -33,7 +33,7 @@
             <img src="images/manager-and-guide.jpeg" alt="Our manager with our most experienced guide!">
             <caption> Our manager Evie with Echo! </caption>
             <img src="images/derpy_puma.jpeg" alt="This is Paul.">
-            <caption> This is Paul. Yeah. </caption>
+            <caption> This is Paul. </caption>
             <img src="images/intern.jpeg" alt="This is Penny, our social media intern!">
             <caption> This is Penny, our social media intern! </caption>
         </section>
@@ -48,7 +48,23 @@
                 </div>
             </fieldset>
             <fieldset>
-                
+                <legend>Email:</legend>
+                <div>
+                    <label for="q2">Please enter your email address.</label>
+                    <input type="text" id="q2" name="q2">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Your name:</legend>
+                <div>
+                    <p>Purpose of your message:</p>
+                    <input type="radio" id="general-inquiry" name="message-purpose" value="general-inquiry">
+                    <label for="general-inquiry">General Inquiry</label><br>
+                    <input type="radio" id="res-quest" name="message-purpose" value="res-quest">
+                    <label for="res-quest">Reservation Question</label><br>
+                    <input type="radio" id="web-sug" name="message-purpose" value="web-sug">
+                    <label for="web-sug">Website Suggestion</label>
+                </div>
             </fieldset>
         </form>
     </main>
