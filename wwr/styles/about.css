@@ -94,3 +94,7 @@ p a {
     max-width: 300px;
     max-height: 300px;
 }
+
+textarea {
+    background-color: rgb(228, 208, 197);
+}
