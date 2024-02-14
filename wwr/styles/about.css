@@ -91,8 +91,8 @@ p a {
 }
 
 .employee-photos img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 225px;
+    max-height: 225px;
 }
 
 textarea {
@@ -104,4 +104,8 @@ button {
     max-height: 200px;
     background-color: var(--nav-background-color);
     color: rgb(228, 208, 197);
+}
+
+caption {
+    font-weight: 100;
 }
