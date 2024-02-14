@@ -98,3 +98,10 @@ p a {
 textarea {
     background-color: rgb(228, 208, 197);
 }
+
+button {
+    max-width: 300px;
+    max-height: 200px;
+    background-color: var(--nav-background-color);
+    color: rgb(228, 208, 197);
+}
