@@ -3,11 +3,17 @@
     background-color: #fb7646;
 }
 
+body {
+    margin: 0px;
+}
+
 :root {
     --primary-color: #fb7646;
     --secondary-color: #76a4ee;
     --accent1-color: #7dc0f7;
     --accent2-color: #64b892;
+
+    --shadow-color: #a8370e;
 
     --heading-font: Georgia, 'Times New Roman', Times, serif;
     --paragraph-font: Georgia, 'Times New Roman', Times, serif;
@@ -128,4 +134,82 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#q4 {
+    width: 98.5%;
+}
+
+.notebook {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.desc {
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.hor-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.trip-sum {
+    text-align: center;
+    border: solid var(--accent2-color) 3px;
+    background-color: var(--accent1-color);
+    width: 100%;
+    margin: 10px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.trip {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+    box-shadow: 0px 0px 5px var(--shadow-color);
+}
+
+.equipment {
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px var(--shadow-color);
+    width: 200px;
+    border: solid var(--accent2-color) 2px;
+    background-color: var(--accent1-color);
+}
+
+.equipment h3 {
+    margin: 5px;
+    background-color: var(--accent1-color);
+}
+
+.equipment div {
+    background-color: var(--accent1-color);
+}
+
+.img-hold {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.attention {
+    text-align: center;
 }
