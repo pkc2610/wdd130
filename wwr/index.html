@@ -32,11 +32,21 @@
     <div class="img-hold">
         <img width="500" src="./images/colorado-river.jpg" alt="Colorado River" >
     </div>
-    <div class="newsletter">
-        <h2>Sign up for our newsletter!</h2>
-        <p>Email:</p>
-        <input type="text">
-        <button type="submit">Submit</button>
+    <div class="formbb">
+        <form>
+            <h2> Sign Up For Our Newsletter! </h2>
+            <fieldset>
+                <p>Your name:</p>
+                <div>
+                    <input type="text" id="name" name="name">
+                </div>
+                <p>Email:</p>
+                    <input type="text" id="email" name="email">
+                <input type="checkbox" id="newsletter" name="newsletter" value="letter">
+                <label for="newsletter"> Sign up for our newsletter! </label><br>
+            </fieldset>
+            <button type="submit">Sign Me Up!</button>
+        </form>
     </div>
     <br>
 </body>
